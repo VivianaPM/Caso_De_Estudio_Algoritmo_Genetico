@@ -1,8 +1,8 @@
-from menu import mostrar_menu, obtener_datos_problema
-from rutas import algoritmo_genetico, mostrar_resultados
-from circuito import ejecutar_diseño_circuitos
-from cartera import ejecutar_inversiones_cartera
-from graficar import graficar_fitness
+from algoritmo_genetico.src.UI.menu import mostrar_menu, obtener_datos_problema
+from algoritmo_genetico.src.problems.rutas import algoritmo_genetico, mostrar_resultados
+from algoritmo_genetico.src.problems.circuito import ejecutar_diseño_circuitos
+from algoritmo_genetico.src.problems.cartera import ejecutar_inversiones_cartera
+from algoritmo_genetico.src.utils.graficar import graficar_fitness
 
 def main():
     while True:
